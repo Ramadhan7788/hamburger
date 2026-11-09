@@ -17,7 +17,7 @@
     }
   },
   "packageManager": "pnpm@12.18.0",
-  "type": "module",
+  "type": "commonjs",
   "dependencies": {
     "readline-sync": "^1.4.10"
   }
