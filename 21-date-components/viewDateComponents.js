@@ -51,7 +51,7 @@ function displayDateComponents(millis) {
   console.log(`Minutes: ${myDate.getMinutes()}`);
   console.log(`Seconds: ${myDate.getSeconds()}`);
   console.log(`Milliseconds: ${myDate.getMilliseconds()}`);
-  console.log(`\nISO 8601: ${myDate.toISOString()}\n`);
+  console.log(`\nISO 8601: ${myDate.toISOString()}`);
 }
 
 module.exports = {

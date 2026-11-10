@@ -2,17 +2,17 @@ const EPOCH = {
   YEAR: 1970,
   MONTH: 0,
   DATE: 1,
-}
+};
 
 const DAYS_IN_YEAR = {
   LEAP: 366,
   NON_LEAP: 365,
-}
+};
 
 const MONTH_DAYS = {
   LEAP: [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31],
   NON_LEAP: [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31],
-}
+};
 
 const SECONDS_PER_MINUTE = 60;
 const MINUTES_PER_HOUR = 60;
@@ -44,4 +44,4 @@ module.exports = {
   CENTURY_LEAP_CYCLE,
   DAYS_IN_YEAR,
   MONTH_DAYS,
-}
+};

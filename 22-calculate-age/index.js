@@ -16,8 +16,6 @@ function parseNumber(str) {
   return Number.isNaN(number) ? NaN : number;
 }
 
-// Hey Edward, your age is 25.
-
 /**
  * Prompts the user to enter their name.
  * @returns {string}
@@ -47,7 +45,7 @@ function promptMonth() {
  * @returns {number|NaN}
  */
 function promptDay() {
-  return parseNumber(readline.question('Enter birth day (1-31): '));
+  return parseNumber(readline.question('Enter birth date: '));
 }
 
 /**
