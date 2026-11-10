@@ -32,6 +32,7 @@ class MyDate {
    * 
    * @type {number}
    */
+  #month;
   #date;
   /**
    * The number of hours since the Unix Epoch
@@ -111,7 +112,6 @@ class MyDate {
    * @returns {number} Day of the month (1 - 31)
    */
   getDate() {
-    // return this.#date;
   }
   
   /**
@@ -174,17 +174,7 @@ class MyDate {
   }
 }
 
-const tanggal = new MyDate(1771463606792);
-const tahun = tanggal.getFullYear();
-const tanggalan = tanggal.getDate();
-const hours = tanggal.getHours();
-const minutes = tanggal.getMinutes();
-const seconds = tanggal.getSeconds();
-const milsecon = tanggal.getMilliseconds();
+const tanggal1 = new MyDate(1771463606792);
+const tanggal2 = new MyDate(946532728945);
 
-console.log(`tahun: ${tahun}`);
-console.log(`tanggal: ${tanggalan}`);
-console.log(`jam: ${hours}`);
-console.log(`menit: ${minutes}`);
-console.log(`detik: ${seconds}`);
-console.log(`milidetik: ${milsecon}`);
+// ISO 8601: 2026-02-19T01:13:26.792Z
