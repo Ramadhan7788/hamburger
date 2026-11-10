@@ -1,7 +1,7 @@
 'use strict';
 
 const readline = require('readline-sync');
-const MyDate = require('./modelDateComponents.js');
+const MyDate = require('./modelDateComponents');
 
 /**
  * Parses a string to a number.

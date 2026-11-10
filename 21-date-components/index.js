@@ -1,5 +1,5 @@
 'use strict';
 
-const main = require('./controllerDateComponents.js');
+const main = require('./controllerDateComponents');
 
 main();

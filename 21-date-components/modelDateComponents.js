@@ -15,7 +15,7 @@ const  {
   CENTURY_LEAP_CYCLE,
   DAYS_IN_YEAR,
   MONTH_DAYS,
-  } = require('./constants.js');
+  } = require('./constants');
 
 class MyDate { 
   /**

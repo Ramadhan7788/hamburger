@@ -1,6 +1,6 @@
 'use strict';
 
-const { promptMillis, validateInput, displayDateComponents } = require('./viewDateComponents.js');
+const { promptMillis, validateInput, displayDateComponents } = require('./viewDateComponents');
 
 /**
  * The main function that runs the date components program.
